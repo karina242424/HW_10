@@ -1,0 +1,16 @@
+  106  git branch
+  107  git checkout develop
+  108  git branch
+  109  touch develop_test.txt
+  110  ls
+  111  git add .
+  112  git status
+  113  git commit -m "add develop_test.txt"
+  114  vim develop_test.txt
+  115  git status
+  116  git add .
+  117  git status
+  118  git commit -m "change develop_test.txt"
+  119  git checkout main
+  120  git merge develop
+  121  git log
